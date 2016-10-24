@@ -1,0 +1,789 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400&subset=latin,latin-ext);
+header, section, footer, aside, nav, article, figure, figcaption {
+  display: block; }
+
+body, section {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  border: none;
+  display: block;
+  left: 0;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+  background-color: #eff0dd; }
+
+.nav_menu .selfiy {
+  background-color: transparent !important;
+  box-shadow: none !important; }
+
+.nav_menu .store {
+  background-color: #1acbc1;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+.fa-mainholder_container {
+  width: 100%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 0;
+  margin: 0 0 3% 0;
+  display: block;
+  border: none; }
+
+.fa-mainholder_container .fa-3DProto-showtitle {
+  width: 100%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 1% 0;
+  margin: 0;
+  display: block;
+  border: none;
+  background-color: #1acbc1; }
+
+.fa-mainholder_container .fa-3DProto-showtitle h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 35px;
+  font-weight: lighter;
+  text-align: center;
+  padding: 3% 0 1% 0;
+  margin: 0;
+  color: #fff;
+  letter-spacing: 0.6px; }
+
+.fa-mainholder_container .fa-3DProto-showtitle h2 {
+  width:60%;
+  left:20%;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  padding: 0.5% 0 4% 0;
+  margin: 0;
+  color: #404040;
+  letter-spacing: 0.6px;
+line-height: 1.4;
+}
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent {
+  width: 80%;
+  height: auto;
+  left: 10%;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: block;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.15); }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .large-3 {
+  width: 30%; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .large-9 {
+  width: 70%; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol {
+  width: 30%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 0 0 18% 0;
+  margin: 0;
+  display: block;
+  border: none; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-rightcol-mob {
+      width: 100%;
+      height: auto;
+      left: 0%;
+      position: relative;
+      padding: 0%;
+      margin: 0;
+      display: none;
+      border: none;
+      text-align: center;
+
+  }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-rightcol-mob img {
+      width: 90%;
+        padding: 5% 0 0 0;
+  }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-titlebox {
+  width: 100%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 10% 0 1% 25%;
+  margin: 0;
+  display: block;
+  border: none; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-titlebox h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+  padding: 0% 0 1% 0;
+  margin: 0;
+  color: #000;
+  letter-spacing: 0.6px; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-titlebox h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: left;
+  padding: 0 0 1% 0%;
+  margin: 0;
+  color: #000;
+  letter-spacing: 0.6px; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox {
+  width: 100%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 10% 0 1% 25%;
+  margin: 0;
+  display: block;
+  border: none; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: left;
+  padding: 0 0 3% 0%;
+  margin: 0;
+  color: #000;
+  letter-spacing: 0.6px; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  width: 100%; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox tr {
+  display: table-row;
+  width: 100%;
+  padding: 15% 0; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox th {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  display: table-cell;
+  width: 50%;
+  text-align: left;
+  border: none;
+  margin: 0;
+  color: #000;
+  padding: 4px 5px; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox td {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  display: table-cell;
+  width: 50%;
+  color: #000;
+  text-align: left; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox .fa-buy-but {
+  width: 80%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 5% 0 3% 0;
+  margin: 0;
+  display: block;
+  border: none; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox .fa-buy-but .fa-rate-button {
+  width: 35%;
+  position: relative;
+  border: 1px solid #404040;
+  display: inline-block;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: light;
+  padding: 8px 0px;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1.5px;
+  float: left;
+  z-index: 50; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox .fa-buy-but .fa-bro-button {
+  width: 55%;
+  position: relative;
+  border: none;
+  display: inline-block;
+  color: #404040;
+  background-color: #1acbc1;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: light;
+  padding: 8px 0px;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1.5px;
+  float: right;
+  z-index: 50; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-rightcol {
+  width: 70%;
+  height: auto;
+  left: 30%;
+  padding: 0;
+  margin: 0;
+  top: 0%;
+  box-sizing: border-box;
+  display: block;
+  border: none;
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+  text-align: center; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-rightcol img {
+  width: 70%; }
+
+  .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 {
+  width: 80%;
+  height: auto;
+  left: 10%;
+  position: relative;
+  padding: 0;
+  margin: 0.8% 0 0 0;
+  display: block;
+  border: none;
+  background-color: #fff;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.15); }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .large-3 {
+  width: 30%; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .large-9 {
+  width: 70%; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol {
+  width: 30%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 0 0 18% 0;
+  margin: 0;
+  display: block;
+  border: none; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-rightcol-mob {
+      width: 100%;
+      height: auto;
+      left: 0%;
+      position: relative;
+      padding: 0%;
+      margin: 0;
+      display: none;
+      border: none;
+      text-align: center;
+
+  }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-rightcol-mob img {
+      width: 90%;
+        padding: 5% 0 0 0;
+  }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-titlebox {
+  width: 100%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 10% 0 1% 25%;
+  margin: 0;
+  display: block;
+  border: none; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-titlebox h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  font-weight: lighter;
+  text-align: left;
+  padding: 0% 0 1% 0;
+  margin: 0;
+  color: #000;
+  letter-spacing: 0.6px; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-titlebox h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+  text-align: left;
+  padding: 0 0 1% 0%;
+  margin: 0;
+  color: #000;
+  letter-spacing: 0.6px; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox {
+  width: 100%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 10% 0 1% 25%;
+  margin: 0;
+  display: block;
+  border: none; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: left;
+  padding: 0 0 3% 0%;
+  margin: 0;
+  color: #000;
+  letter-spacing: 0.6px; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  width: 100%; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox tr {
+  display: table-row;
+  width: 100%;
+  padding: 15% 0; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox th {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  display: table-cell;
+  width: 50%;
+  text-align: left;
+  border: none;
+  margin: 0;
+  color: #000;
+  padding: 4px 5px; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox td {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  display: table-cell;
+  width: 50%;
+  color: #000;
+  text-align: left; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox .fa-buy-but {
+  width: 80%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 5% 0 3% 0;
+  margin: 0;
+  display: block;
+  border: none; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox .fa-buy-but .fa-rate-button {
+  width: 35%;
+  position: relative;
+  border: 1px solid #404040;
+  display: inline-block;
+  color: #000;
+  background-color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: light;
+  padding: 8px 0px;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1.5px;
+  float: left;
+  z-index: 50; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox .fa-buy-but .fa-bro-button {
+  width: 55%;
+  position: relative;
+  border: none;
+  display: inline-block;
+  color: #404040;
+  background-color: #1acbc1;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: light;
+  padding: 8px 0px;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 1.5px;
+  float: right;
+  z-index: 50; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-rightcol {
+  width: 70%;
+  height: auto;
+  left: 30%;
+  padding: 0;
+  margin: 0;
+  top: 2.5%;
+  box-sizing: border-box;
+  display: block;
+  border: none;
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+  text-align: center; }
+
+.fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-rightcol img {
+  width: 70%; }
+
+.fa-ng-request-mainholder {
+  width: 100%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 8% 0 5% 0;
+  margin: 0;
+  display: block;
+  border: none; }
+
+
+.fa-ng-request-mainholder {
+  width: 100%;
+  height: auto;
+  left: 0%;
+  position: relative;
+  padding: 8% 0 5% 0;
+  margin: 0;
+  display: block;
+  border: none; }
+  .fa-ng-request-mainholder .fa-ng-request {
+    width: 100%;
+    height: auto;
+    left: 0%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: block;
+    border: none; }
+    .fa-ng-request-mainholder .fa-ng-request h2 {
+      font-family: 'Lato', sans-serif;
+      font-size: 28px;
+      font-weight: lighter;
+      text-align: center;
+      border: none;
+      padding: 0;
+      margin: 0;
+      color: #3f3f3f; }
+  .fa-ng-request-mainholder .fa-ng-subholder {
+    width: 90%;
+    height: auto;
+    left: 5%;
+    position: relative;
+    padding: 0;
+    margin: 5% 0;
+    display: block;
+    border: none;
+    text-align: center; }
+    .fa-ng-request-mainholder .fa-ng-subholder .large-6 {
+      width: 20%; }
+    .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo1 {
+      width: 20%;
+      height: auto;
+      left: 0%;
+      position: relative;
+      padding: 0;
+      margin: 0;
+      display: block;
+      border: none; }
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo1 img {
+        width: 70%;
+        -webkit-filter: grayscale(100%);
+        /* Chrome, Safari, Opera */
+        filter: grayscale(100%);
+        opacity: 0.7; }
+    .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo2 {
+      width: 20%;
+      height: auto;
+      left: 20%;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      display: block;
+      border: none; }
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo2 img {
+        width: 45%;
+        -webkit-filter: grayscale(100%);
+        /* Chrome, Safari, Opera */
+        filter: grayscale(100%);
+        opacity: 0.7; }
+    .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo3 {
+      width: 20%;
+      height: auto;
+      left: 40%;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      display: block;
+      border: none; }
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo3 img {
+        width: 75%;
+        padding: 8% 0 0 0;
+        opacity: 0.7; }
+    .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo5 {
+      width: 20%;
+      height: auto;
+      left: 60%;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      display: block;
+      border: none; }
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo5 img {
+        width: 45%;
+        -webkit-filter: grayscale(100%);
+        /* Chrome, Safari, Opera */
+        filter: grayscale(100%);
+        opacity: 0.7; }
+    .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo6 {
+      width: 20%;
+      height: auto;
+      left: 80%;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      display: block;
+      border: none; }
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo6 img {
+        width: 45%;
+        -webkit-filter: grayscale(100%);
+        /* Chrome, Safari, Opera */
+        filter: grayscale(100%);
+        opacity: 0.7; }
+  .fa-ng-request-mainholder .fa-ng-form-subholder {
+    width: 80%;
+    height: auto;
+    left: 10%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: block;
+    border: none;
+    text-align: center;
+    /*  background-color: #fff;
+      box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.15);*/ }
+    .fa-ng-request-mainholder .fa-ng-form-subholder .name {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      outline: none;
+      display: block;
+      width: 30%;
+      padding: 7px;
+      border: 1px solid #d3d3d3;
+      margin-bottom: 10px;
+      font: 18px 'Lato', sans-serif;
+      height: 60px; }
+    .fa-ng-request-mainholder .fa-ng-form-subholder .email {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      outline: none;
+      display: block;
+      width: 30%;
+      left: 35%;
+      top: 0;
+      position: absolute;
+      padding: 7px;
+      border: 1px solid #d3d3d3;
+      margin-bottom: 10px;
+      font: 18px 'Lato', sans-serif;
+      height: 60px; }
+    .fa-ng-request-mainholder .fa-ng-form-subholder .mob {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      outline: none;
+      display: block;
+      width: 30%;
+      left: 70%;
+      top: 0;
+      position: absolute;
+      padding: 7px;
+      border: 1px solid #d3d3d3;
+      margin-bottom: 10px;
+      font: 18px 'Lato', sans-serif;
+      height: 60px; }
+    .fa-ng-request-mainholder .fa-ng-form-subholder .msg {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      outline: none;
+      display: block;
+      width: 100%;
+      left: 0%;
+      padding: 15px;
+      margin: 3% 0 2% 0;
+      position: relative;
+      border: 1px solid #d3d3d3;
+      font: 18px 'Lato', sans-serif;
+      height: 200px;
+      resize: auto; }
+    .fa-ng-request-mainholder .fa-ng-form-subholder .send {
+      -moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+      -webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+      box-shadow: inset 0px 1px 0px 0px #45D6D6;
+      background-color: #2CBBBB;
+      border: 1px solid #27A0A0;
+      display: inline-block;
+      cursor: pointer;
+      color: #f6f6f6;
+      font-family: 'Lato', sans-serif;
+      font-size: 18px;
+      font-weight: normal;
+      margin: 0;
+      width: 13.5%;
+      height: 53px;
+      text-decoration: none;
+      text-align: center; }
+    .fa-ng-request-mainholder .fa-ng-form-subholder .send:hover {
+      background: linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+      background-color: #34CACA; }
+
+      @media screen and (max-width: 768px) {
+          .fa-mainholder_container .fa-3DProto-showtitle h1 {
+              font-size: 28px;
+              padding: 8% 0 1% 0;
+          }
+          .fa-mainholder_container .fa-3DProto-showtitle h2 {
+              width: 90%;
+              left: 5%;
+              position: relative;
+              font-size: 16px;
+              padding: 3% 0 9% 0;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 {
+              width: 90%;
+              left: 5%;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol {
+              width: 100%;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-rightcol, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-rightcol {
+              display: none;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-rightcol-mob, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ng-rightcol-mob {
+              display: block;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-titlebox, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-titlebox {
+              padding: 10% 0 1% 8%;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-titlebox h1, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-titlebox h1 {
+              font-size: 28px;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-titlebox h3, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-titlebox h3 {
+              font-size: 13.9px;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox {
+              padding: 10% 0 1% 8%;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox h1, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox h1 {
+              font-size: 20px;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox th, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox th, .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox td, .fa-mainholder_container .fa-ng-i-sense .fa-ng-leftcol .fa-ngrow-specsbox td {
+              font-size: 13px;
+          }
+          .fa-mainholder_container .fa-ng-3dprotorow-showcontent .fa-ng-leftcol .fa-ngrow-specsbox .fa-buy-but .fa-rate-button, .fa-mainholder_container .fa-ng-3dprotorow-showcontent-2 .fa-ng-leftcol .fa-ngrow-specsbox .fa-buy-but .fa-rate-button {
+              width: 35%;
+              font-size: 13.9px;
+          }
+.fa-ng-request-mainholder {
+    padding: 12% 0 8% 0;
+  }
+
+      .fa-ng-request-mainholder .fa-ng-request h2 {
+        font-size: 25px;
+      }
+
+      .fa-ng-request-mainholder .fa-ng-subholder {
+          margin: 8% 0;
+        }
+
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo1 {
+        width: 33.33%;
+      }
+
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo1 img {
+        width: 85%;
+      }
+
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo2 {
+        width: 33.33%;
+        left:33.33%;
+      }
+
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo2 img {
+        width: 60%;
+      }
+
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo3 {
+        width: 33.33%;
+        left:66.66%;
+      }
+
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo3 img {
+        width: 90%;
+      }
+
+  .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo6,
+      .fa-ng-request-mainholder .fa-ng-subholder .fa-fa-ng-sub-logo5 {
+        display: none;
+      }
+      .fa-ng-request-mainholder .fa-ng-form-subholder {
+        width: 90%;
+        left:5%;
+      }
+
+      .fa-ng-request-mainholder .fa-ng-form-subholder .name,
+      .fa-ng-request-mainholder .fa-ng-form-subholder .email,
+      .fa-ng-request-mainholder .fa-ng-form-subholder .mob  {
+        width: 100%;
+        left:0;
+        position: relative;
+          font: 15px 'Lato', sans-serif;
+          height: 45px;
+      }
+  .fa-ng-request-mainholder .fa-ng-form-subholder .msg {
+    font: 15px 'Lato', sans-serif;
+    height: 120px;
+
+}
+.fa-ng-request-mainholder .fa-ng-form-subholder .send {
+width:35%;
+    height: 40px;
+      margin: 5% 0;
+      font-size: 15px;
+}
+    }
+
+
+
+/*# sourceMappingURL=3d.css.map */

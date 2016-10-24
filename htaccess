@@ -1,0 +1,8 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.3dclue\.in)(:80)? [NC]
+RewriteRule ^(.*) http://3dclue.in/$1 [R=301,L]
+order deny,allow
+

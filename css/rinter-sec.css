@@ -1,0 +1,918 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400&subset=latin,latin-ext);
+
+header, section, footer, aside, nav, article, figure, figcaption {
+display: block;}
+
+  body,section {
+    	width:100%;
+	    height:auto;
+        margin:0;
+	    padding:0;
+        border:none;
+        display: block;
+        left:0;
+ 	    position:relative;
+        -webkit-font-smoothing: antialiased;
+
+    }
+
+			.nav_menu .selfiy{
+		background-color:transparent;
+		box-shadow: none;
+	}
+
+			.nav_menu .services{
+					background-color:#1acbc1;
+		box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.15);
+			}
+
+	.fa-mainholder_container{
+		width:100%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		/*background-color:#1acbc1;*/
+		background: url("../image/rints.jpg");
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position:65% 35%;
+	}
+
+	.fa-mainholder_container .fa-shades-effect{
+		top:0;
+		bottom: 0;
+		right: 0;
+		left:0%;
+		position:absolute;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		background-color:#17bbb1;
+		opacity:0.85;
+		z-index: 50;
+	}
+
+
+
+		.fa-mainholder_container .fa-3DProto-showtitle{
+		width:100%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:3% 0;
+		margin:0;
+		display:block;
+		border:none;
+		text-align:center;
+		z-index:500;
+	}
+
+	.fa-mainholder_container .fa-3DProto-showtitle table{
+		width:50%;
+		left:25%;
+		position:relative;
+		padding:3.5% 0 0 0;
+	}
+
+	.fa-mainholder_container .fa-3DProto-showtitle tbody{
+		display: table-row-group;
+		vertical-align:middle;
+		width:80%;
+	}
+
+			.fa-mainholder_container .fa-3DProto-showtitle tr{
+		display: table-row;
+		width:50%;
+		padding:0;
+
+	}
+
+	.fa-mainholder_container .fa-3DProto-showtitle th{
+		font-family: 'Lato', sans-serif;
+		font-size:38px;
+		font-weight:lighter;
+		display: table-cell;
+		width:50%;
+		text-align:left;
+		border:none;
+		margin:0;
+		color:#fff;
+		padding:4px 5px;
+	}
+
+	.fa-mainholder_container .fa-3DProto-showtitle td{
+			font-family: 'Lato', sans-serif;
+		font-size: 39px;
+		font-weight:lighter;
+		display:table-cell;
+		width:50%;
+		color:#404040;
+		text-align:left;
+
+	}
+
+	.fa-mainholder_container .fa-3DProto-showtitle h3{
+		font-family: 'Lato', sans-serif;
+		font-size:17px;
+		font-weight:300;
+		text-align:center;
+		padding:0 0 5% 20%;
+		margin:0;
+		color:#fff;
+		letter-spacing:0.6px;
+	}
+
+	.fa-mainholder_container .fa-3DProto-showfloat_bar{
+		width:40%;
+		height:auto;
+		left:30%;
+		position:absolute;
+		padding:0;
+		margin:0;
+		bottom:-10%;
+		display:block;
+		border:none;
+		background-color:#454545;
+		z-index: 500;
+	}
+
+	.fa-mainholder_container .fa-3DProto-showfloat_bar h1{
+		font-family: 'Lato', sans-serif;
+		font-size:18px;
+		font-weight:300;
+		text-align:center;
+		padding:3.5%;
+		margin:0;
+		color:#fff;
+		letter-spacing:0.6px;
+	}
+
+	.fa-flow-holder-container{
+		width:100%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:5% 0;
+		margin:0;
+		display:block;
+		border:none;
+
+	}
+
+	.fa-flow-holder-container .fa-fa-title-row-header{
+		width:100%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:0 0 3% 0;
+		display:block;
+		border:none;
+	}
+
+	.fa-flow-holder-container .fa-fa-title-row-header h1{
+		font-family: 'Lato', sans-serif;
+		font-size:35px;
+		font-weight:400;
+		text-align:center;
+		padding:3% 0 2% 0 ;
+		margin:0;
+		color:#3f3f3f;
+		letter-spacing:0.6px;
+	}
+
+	.fa-flow-holder-container .fa-fa-title-row-header .fa-fa-content-box-eighty{
+		width:60%;
+		height:auto;
+		left:20%;
+		position:relative;
+		padding:0;
+		margin:0 0 1% 0;
+		display:block;
+		border:none;
+	}
+
+	.fa-flow-holder-container .fa-fa-title-row-header .fa-fa-content-box-eighty h2{
+		font-family: 'Lato', sans-serif;
+		font-size:18px;
+		font-weight:300;
+		text-align:center;
+		padding:0;
+		margin:0;
+		color:#3f3f3f;
+		letter-spacing:0.6px;
+		line-height:1.6;
+	}
+
+	.fa-flow-holder-container .fa-fa-processholder-container{
+		width:80%;
+		height:auto;
+		left:10%;
+		position:relative;
+		padding:0;
+		margin:8% 0 0 0;
+		display:block;
+		border:none;
+	}
+
+	.fa-flow-holder-container .fa-fa-processholder-container .dasher-process-holder{
+		height:20px;
+		left:15%;
+		right:15%;
+		top: 5%;
+		position:absolute;
+		padding:0;
+		border-bottom:1px dashed #9f9f9f;
+		margin:0;
+		display:block;
+		z-index: 0;
+	}
+
+
+	.fa-flow-holder-container .fa-fa-processholder-container .large-4{
+		width:33.33%;
+	}
+
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-email{
+		width:33.33%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		text-align:center;
+	}
+
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-email .fa-process-one,
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-rint .fa-process-two,
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-delivery .fa-process-three
+	{
+		width: 45px;
+		height: 45px;
+		border:3px solid #1acbc1;
+		background-color:#1acbc1;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		position: relative;
+		left: 43%;
+		vertical-align: middle;
+	}
+
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-email .fa-process-one span,
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-rint .fa-process-two span,
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-delivery .fa-process-three span
+	{
+		font-family: 'segoe UI', sans-serif;
+		font-size:20px;
+		font-weight:550;
+		text-align:center;
+		padding:0;
+		margin:0;
+		top: 15%;
+		left:38%;
+		color:#fff;
+		position: absolute;
+		letter-spacing:0.6px;
+		vertical-align: middle;
+	}
+
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-email h1,
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-rint h1,
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-delivery h1
+	{
+		font-family: 'lato', sans-serif;
+		font-size:18px;
+		font-weight:300;
+		text-align:center;
+		padding:8% 0 0 0;
+		margin:0;
+		color:#3f3f3f;
+		letter-spacing:0.6px;
+
+	}
+
+
+
+	.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-rint{
+		width:33.33%;
+		height:auto;
+		left:33.33%;
+		position:absolute;
+		padding:0;
+		margin:0;
+		top:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+	}
+
+		.fa-flow-holder-container .fa-fa-processholder-container .fa-process-holder-delivery{
+		width:33.33%;
+		height:auto;
+		left:66.66%;
+		position:absolute;
+		padding:0;
+		margin:0;
+		top: 0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+	}
+
+
+
+	.fa-trimatrix-holder-container{
+		width:100%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+	}
+
+.fa-trimatrix-holder-container .fa-trimatrix-header-content{
+		width:100%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+	}
+
+.fa-trimatrix-holder-container .fa-trimatrix-header-content h1{
+	 	font-family: 'Lato', sans-serif;
+		font-size:35px;
+		font-weight:400;
+		text-align:center;
+		padding:5% 0 3% 0;
+		margin:0;
+		color:#3f3f3f;
+		letter-spacing:0.6px;
+	}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder{
+		width:90%;
+		height:auto;
+		left:5%;
+		position:relative;
+		padding:0;
+		margin:0 0 5% 0;
+		display:block;
+		border:none;
+	}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .large-6{
+		width:50%;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixone-holder{
+		width:49%;
+		height:auto;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		left:0;
+		overflow: hidden;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixone-holder img{
+		width:101%;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixone-holder .fa-matrix-desc{
+		width:100%;
+		height:auto;
+		position:absolute;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		left:0;
+		bottom: 2%;
+		overflow: hidden;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixone-holder .fa-matrix-desc h1{
+		font-family: 'Lato', sans-serif;
+		font-size:18px;
+		font-weight:500;
+		text-align:left;
+		padding:3% 0 3% 2%;
+		margin:0;
+		color:#fff;
+		letter-spacing:0.6px;
+	}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder{
+		width:50%;
+		height:auto;
+		position:absolute;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		left:50%;
+		top: 0;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixone{
+		width:100%;
+		height:auto;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		left:0;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo{
+		width:100%;
+		height:auto;
+		position:relative;
+		padding:0;
+		margin:1% 0 0 0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		left:0;
+}
+
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixone img{
+		width:100%;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixone .fa-matrix-desc{
+		width:100%;
+		height:auto;
+		position:absolute;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		left:0;
+		bottom: 2%;
+		overflow: hidden;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixone .fa-matrix-desc h1{
+		font-family: 'Lato', sans-serif;
+		font-size:18px;
+		font-weight:500;
+		text-align:left;
+		padding:3% 0 3% 2%;
+		margin:0;
+		color:#fff;
+		letter-spacing:0.6px;
+	}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo .large-6{
+		width:50%;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo .fa-fa-tri-vertmatrix2-hor-holderone{
+		width:49%;
+		height:auto;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		left:0;
+		overflow: hidden;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo .fa-fa-tri-vertmatrix2-hor-holderone img{
+		width:135%;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo .fa-fa-tri-vertmatrix2-hor-holderone .fa-matrix-desc,
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo .fa-fa-tri-vertmatrix2-hor-holdertwo .fa-matrix-desc{
+		width:100%;
+		height:auto;
+		position:absolute;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		left:0;
+		bottom: 6%;
+		overflow: hidden;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo .fa-fa-tri-vertmatrix2-hor-holderone .fa-matrix-desc h1,
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo .fa-fa-tri-vertmatrix2-hor-holdertwo .fa-matrix-desc h1{
+		font-family: 'Lato', sans-serif;
+		font-size:18px;
+		font-weight:500;
+		text-align:left;
+		padding:3% 0 3% 2%;
+		margin:0;
+		color:#fff;
+		letter-spacing:0.6px;
+	}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo .fa-fa-tri-vertmatrix2-hor-holdertwo{
+		width:50%;
+		height:auto;
+		position:absolute;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		left:50.8%;
+		top: 0;
+		overflow:hidden;
+}
+
+.fa-trimatrix-holder-container .fa-trimatrix-matrix-holder .fa-tri-matrixsecond-holder .fa-tri-vertmatrixsecond-holder-matrixtwo .fa-fa-tri-vertmatrix2-hor-holdertwo img{
+		width:158%;
+}
+
+.fa-numbholder-container{
+		width:100%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		background-color: #1acbc1;
+	}
+
+.fa-numbholder-container .fa-numbholder-content{
+		width:85%;
+		height:auto;
+		left:8%;
+		position:relative;
+		padding:5% 0;
+		margin:0;
+		display:block;
+		border:none;
+		text-align: center;
+	}
+
+.fa-numbholder-container .fa-numbholder-content .large-5{
+		width:25%;
+}
+
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-firstnumb{
+		width:25%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		box-sizing: border-box;
+		border:none;
+	}
+
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-secondnumb{
+		width:25%;
+		height:auto;
+		left:25%;
+		position:absolute;
+		padding:0;
+		top: 32%;
+		margin:0;
+		display:block;
+		box-sizing: border-box;
+		border:none;
+	}
+
+
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-thirdnumb{
+		width:25%;
+		height:auto;
+		left:50%;
+		position:absolute;
+		padding:0;
+		top: 32%;
+		margin:0;
+		display:block;
+		box-sizing: border-box;
+		border:none;
+	}
+
+
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-fourthnumb{
+		width:25%;
+		height:auto;
+		left:75%;
+		position:absolute;
+		padding:0;
+		top: 32%;
+		margin:0;
+		display:block;
+		box-sizing: border-box;
+		border:none;
+	}
+
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-firstnumb h1,
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-secondnumb h1,
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-thirdnumb h1,
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-fourthnumb h1{
+		font-family: 'Lato', sans-serif;
+		font-size:45px;
+		font-weight:300;
+		text-align:center;
+		padding:0;
+		margin:0;
+		color:#fff;
+		letter-spacing:0.6px;
+	}
+
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-firstnumb h2,
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-secondnumb h2,
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-thirdnumb h2,
+.fa-numbholder-container .fa-numbholder-content .fa-fa-numbholder-fourthnumb h2{
+		font-family: 'Lato', sans-serif;
+		font-size:18px;
+		font-weight:350;
+		text-align:center;
+		padding:1% 0;
+		margin:0;
+		color:#f7f7f7;
+		letter-spacing:0.9px;
+		opacity: 0.85;
+	}
+
+
+
+	.fa-rowtech-holder-container{
+		width:100%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		background-color:#f5f6ea;
+		overflow: hidden;
+	}
+
+	.fa-rowtech-holder-container .fa-fa-image-holder-one{
+
+		position:absolute;
+		padding:0;
+		margin:0;
+		top: -3%;
+		right:-13%;
+		display:block;
+		border:none;
+		text-align: right;
+		opacity: 0.9;
+}
+
+.fa-rowtech-holder-container .fa-fa-image-holder-one img{
+			width: 75%;
+			border-radius: 8px;
+			box-shadow: 0 6px 6px 0 rgba(0,0,0,0.15);
+}
+
+	.fa-rowtech-holder-container .fa-fa-image-holder-two{
+
+		position:absolute;
+		padding:0;
+		margin:0;
+		top: -8%;
+		left:22%;
+		display:block;
+		border:none;
+		text-align: left;
+		opacity: 0.9;
+}
+
+.fa-rowtech-holder-container .fa-fa-image-holder-two img{
+			width: 50%;
+			border-radius: 8px;
+			box-shadow: 0 6px 6px 0 rgba(0,0,0,0.15);
+
+}
+
+	.fa-rowtech-holder-container .fa-fa-image-holder-three{
+
+		position:absolute;
+		padding:0;
+		margin:0;
+		bottom: 12%;
+		left:-15%;
+		display:block;
+		border:none;
+		text-align: left;
+
+}
+
+.fa-rowtech-holder-container .fa-fa-image-holder-three img{
+			width: 80%;
+			border-radius: 8px;
+			box-shadow: 0 6px 6px 0 rgba(0,0,0,0.15);
+}
+
+	.fa-rowtech-holder-container .fa-fa-image-holder-four{
+
+		position:absolute;
+		padding:0;
+		margin:0;
+		bottom: -23%;
+		right: 20%;
+		display:block;
+		border:none;
+		text-align: right;
+		opacity: 0.9;
+}
+
+.fa-rowtech-holder-container .fa-fa-image-holder-four img{
+			width: 60%;
+			border-radius: 8px;
+			box-shadow: 0 6px 6px 0 rgba(0,0,0,0.15);
+}
+
+
+
+	.fa-rowtech-holder-container .fa-fa-rowfirst-column12{
+		width:60%;
+		height:auto;
+		left:20%;
+		position:relative;
+		padding:15% 0 18% 0;
+		margin:0;
+		display:block;
+		border:none;
+
+	}
+
+	.fa-rowtech-holder-container .fa-fa-rowfirst-column12 h1{
+		font-family: 'Lato', sans-serif;
+		font-size:35px;
+		font-weight:400;
+		text-align:center;
+		padding:0;
+		margin:0;
+		color:#3f3f3f;
+		letter-spacing:0.6px;
+
+	}
+
+	.fa-rowtech-holder-container .fa-fa-rowfirst-column12 h2{
+		width: 70%;
+		left: 15%;
+		position: relative;
+		font-family: 'Lato', sans-serif;
+		font-size:18px;
+		font-weight:300;
+		text-align:center;
+		padding:3% 0 3% 0;
+		margin:0;
+		color:#3f3f3f;
+		letter-spacing:0.6px;
+
+	}
+
+	.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour{
+		width: 75%;
+		left: 12.5%;
+		position: relative;
+		text-align:center;
+		padding:0;
+		margin:3.5% 0 0 0;
+		border: none;
+	}
+
+	.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour .col-5{
+		width: 25%
+	}
+
+	.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour .fa-fa-fa-fa-columnvertical-one{
+		width:20%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		border-radius: 8px;
+		background-color: #fff;
+	}
+
+	.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour .fa-fa-fa-fa-columnvertical-two{
+		width:20%;
+		height:auto;
+		left:25%;
+		position:absolute;
+		padding:0;
+		margin:0;
+		top: 0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		border-radius: 8px;
+		background-color: #fff;
+	}
+
+	.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour .fa-fa-fa-fa-columnvertical-three{
+		width:20%;
+		height:auto;
+		left:50%;
+		position:absolute;
+		padding:0;
+		margin:0;
+		top: 0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		border-radius: 8px;
+		background-color: #fff;
+	}
+
+	.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour .fa-fa-fa-fa-columnvertical-four{
+		width:20%;
+		height:auto;
+		left:75%;
+		position:absolute;
+		padding:0;
+		margin:0;
+		top: 0;
+		display:block;
+		border:none;
+		box-sizing: border-box;
+		border-radius: 8px;
+		background-color: #fff;
+	}
+
+.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour .fa-fa-fa-fa-columnvertical-one h3,
+.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour .fa-fa-fa-fa-columnvertical-two h3,
+.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour .fa-fa-fa-fa-columnvertical-three h3,
+.fa-rowtech-holder-container .fa-fa-rowfirst-column12 .fa-fa-fa-rowfourth-columnfour .fa-fa-fa-fa-columnvertical-four h3{
+
+		font-family: 'Lato', sans-serif;
+		font-size:13.5px;
+		font-weight:500;
+		text-align:center;
+		padding:8% 0;
+		margin:0;
+		color:#3f3f3f;
+		letter-spacing:0.6px;
+}
+
+	.fa-fa-singlereow-holder{
+		width:100%;
+		height:auto;
+		left:0%;
+		position:relative;
+		padding:0;
+		margin:5% 0;
+		display:block;
+		border:none;
+	}
+
+	.fa-fa-singlereow-holder h1{
+		font-family: 'Lato', sans-serif;
+		font-size:25px;
+		font-weight:400;
+		text-align:center;
+		padding:0;
+		margin:0;
+		color:#3f3f3f;
+		letter-spacing:0.6px;
+	}
+
+		.fa-fa-singlereow-holder h2{
+		font-family: 'Lato', sans-serif;
+		font-size:18px;
+		font-weight:300;
+		text-align:center;
+		padding:1.5% 0 0 0;
+		margin:0;
+		color:#656565;
+		letter-spacing:0.6px;
+	}
